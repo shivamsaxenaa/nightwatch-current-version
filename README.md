@@ -1,2 +1,2 @@
 # nightwatch-current-version
-Used current nightwatch version to run E2E test with generating the script with nightwatch recorder
+We have used here latest nightwatch version to run E2E test while generating the script with nightwatch recorder.
