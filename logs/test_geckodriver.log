@@ -1,0 +1,165 @@
+1666207626256	geckodriver	INFO	Listening on 127.0.0.1:59984
+1666207626272	webdriver::server	DEBUG	-> GET /status 
+1666207626273	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1666207626281	webdriver::server	DEBUG	-> POST /session {"desiredCapabilities":{"browserName":"firefox","name":"Test"},"capabilities":{"alwaysMatch":{"browserName":"firefox"}}}
+1666207626289	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tb/4mlnszhx5zqfw5qvrgsxgk8h0000gp/T/rust_mozprofileib6EZg"
+1666207626298	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:60014
+1666207626299	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207626403	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207626503	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207626604	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207626705	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207626810	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207626915	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207627020	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207627121	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+1666207627223	geckodriver::marionette	TRACE	Connection refused (os error 61). Retrying in 100ms
+2022-10-20 00:57:07.230 plugin-container[3974:1094751] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-10-20 00:57:07.230 plugin-container[3974:1094751] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-10-20 00:57:07.233 plugin-container[3974:1094751] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-10-20 00:57:07.233 plugin-container[3974:1094751] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-10-20 00:57:07.234 plugin-container[3974:1094778] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-10-20 00:57:07.234 plugin-container[3974:1094778] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1666207627236	Marionette	INFO	Marionette enabled
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref browser.search.update to false
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1666207627237	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.merino.endpointURL to 
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref dom.successive_dialog_time_limit to 0
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1666207627238	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1666207627239	RemoteAgent	DEBUG	Setting recommended pref signon.rememberSignons to false
+1666207627239	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1666207627239	RemoteAgent	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1666207627279	Marionette	TRACE	Received observer notification final-ui-startup
+1666207627281	Marionette	INFO	Listening on port 60014
+1666207627281	Marionette	DEBUG	Marionette is listening
+1666207627431	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:60033
+1666207627437	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:60014.
+1666207627465	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"browserName":"firefox"}]
+1666207627468	Marionette	DEBUG	Waiting for initial application window
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/tb/4mlnszhx5zqfw5qvrgsxgk8h0000gp/T/rust_mozprofileib6EZg/search.json.mozlz4", (void 0)))
+1666207629055	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1666207629058	RemoteAgent	TRACE	[9] Document already finished loading: about:blank
+1666207629064	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"031a143c-a79b-4e8c-975f-59ff86d774b8","capabilities":{"browserName":"firefox","browserVersion":"105.0 ... ownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+1666207629066	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"031a143c-a79b-4e8c-975f-59ff86d774b8","capabilities":{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"105.0.1","moz:accessibilityChecks":false,"moz:buildID":"20220922151854","moz:geckodriverVersion":"0.30.0","moz:headless":false,"moz:platformVersion":"21.6.0","moz:processID":3973,"moz:profile":"/var/folders/tb/4mlnszhx5zqfw5qvrgsxgk8h0000gp/T/rust_mozprofileib6EZg","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"mac","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1666207629077	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/url {"url":"https://staging2.instawork.com"}
+1666207629077	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://staging2.instawork.com"}]
+1666207629081	Marionette	TRACE	[9] Received event beforeunload for about:blank
+1666207631235	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 11
+1666207631242	Marionette	TRACE	[11] Received event beforeunload for about:blank
+1666207631244	Marionette	TRACE	[11] Received event pagehide for about:blank
+1666207632439	Marionette	TRACE	[11] Received event DOMContentLoaded for https://app.staging2.instawork.com/
+1666207632443	Marionette	TRACE	[11] Received event pageshow for https://app.staging2.instawork.com/
+1666207632443	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1666207632444	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1666207632449	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207632450	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207632483	Marionette	TRACE	[11] MarionetteCommands actor created for window id 6442450945
+1666207632486	Marionette	DEBUG	0 <- [1,3,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Synt ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207632487	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207632992	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207632993	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207632994	Marionette	DEBUG	0 <- [1,4,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Synt ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207632994	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207633498	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207633499	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207633500	Marionette	DEBUG	0 <- [1,5,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Synt ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207633500	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207634006	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207634006	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207634007	Marionette	DEBUG	0 <- [1,6,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Synt ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207634008	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207634513	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207634514	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207634515	Marionette	DEBUG	0 <- [1,7,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Synt ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207634515	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207635020	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207635021	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207635022	Marionette	DEBUG	0 <- [1,8,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Synt ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207635022	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207635526	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207635527	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207635527	Marionette	DEBUG	0 <- [1,9,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Synt ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207635528	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207636031	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207636032	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207636033	Marionette	DEBUG	0 <- [1,10,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Syn ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207636033	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207636537	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207636537	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207636538	Marionette	DEBUG	0 <- [1,11,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Syn ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207636539	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207637043	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207637044	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207637045	Marionette	DEBUG	0 <- [1,12,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Syn ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207637045	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207637552	webdriver::server	DEBUG	-> POST /session/031a143c-a79b-4e8c-975f-59ff86d774b8/elements {"using":"css selector","value":"//*[@href=\"/business/login\"]"}
+1666207637553	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElements",{"using":"css selector","value":"//*[@href=\"/business/login\"]"}]
+1666207637557	Marionette	DEBUG	0 <- [1,13,{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: Syn ... mmandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"},null]
+1666207637559	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"invalid selector","message":"Given css selector expression \"//*[@href=\"/business/login\"]\" is invalid: SyntaxError: Document.querySelectorAll: '//*[@href=\"/business/login\"]' is not a valid selector","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.jsm:12:1\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:192:5\nInvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.jsm:352:5\nfind_@chrome://remote/content/marionette/element.js:319:11\nelement.find/</findElements<@chrome://remote/content/marionette/element.js:273:24\nevalFn@chrome://remote/content/marionette/sync.js:135:7\nPollPromise/<@chrome://remote/content/marionette/sync.js:155:5\nPollPromise@chrome://remote/content/marionette/sync.js:126:10\nelement.find/<@chrome://remote/content/marionette/element.js:271:24\nelement.find@chrome://remote/content/marionette/element.js:270:10\nfindElements@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:264:25\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:103:31\n"}}
+1666207637651	webdriver::server	DEBUG	-> DELETE /session/031a143c-a79b-4e8c-975f-59ff86d774b8 
+1666207637653	Marionette	DEBUG	0 -> [0,14,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1666207637653	Marionette	INFO	Stopped listening on port 60014
+1666207637714	Marionette	TRACE	Received observer notification quit-application
+1666207637715	Marionette	TRACE	Received observer notification quit-application
+1666207637715	Marionette	DEBUG	Marionette stopped listening
+1666207637715	RemoteAgent	DEBUG	Resetting recommended pref apz.content_response_timeout
+1666207637716	RemoteAgent	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1666207637717	RemoteAgent	DEBUG	Resetting recommended pref browser.download.panel.shown
+1666207637719	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1666207637719	RemoteAgent	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1666207637720	RemoteAgent	DEBUG	Resetting recommended pref browser.search.update
+1666207637720	RemoteAgent	DEBUG	Resetting recommended pref browser.startup.couldRestoreSession.count
+1666207637720	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1666207637720	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1666207637720	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1666207637720	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1666207637721	RemoteAgent	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1666207637721	RemoteAgent	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1666207637721	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.merino.endpointURL
+1666207637722	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1666207637723	RemoteAgent	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1666207637723	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1666207637723	RemoteAgent	DEBUG	Resetting recommended pref dom.file.createInChild
+1666207637724	RemoteAgent	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1666207637724	RemoteAgent	DEBUG	Resetting recommended pref dom.max_script_run_time
+1666207637724	RemoteAgent	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1666207637724	RemoteAgent	DEBUG	Resetting recommended pref dom.successive_dialog_time_limit
+1666207637725	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1666207637725	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1666207637725	RemoteAgent	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1666207637725	RemoteAgent	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1666207637725	RemoteAgent	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1666207637725	RemoteAgent	DEBUG	Resetting recommended pref security.notification_enable_delay
+1666207637725	RemoteAgent	DEBUG	Resetting recommended pref signon.autofillForms
+1666207637726	RemoteAgent	DEBUG	Resetting recommended pref signon.rememberSignons
+1666207637727	RemoteAgent	DEBUG	Resetting recommended pref browser.topsites.contile.enabled
+1666207637727	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1666207637728	Marionette	DEBUG	0 <- [1,14,null,{"cause":"shutdown","forced":false}]
+1666207637764	webdriver::server	DEBUG	Teardown session
+1666207637782	Marionette	DEBUG	Closed connection 0
+1666207638173	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1666207638191	webdriver::server	DEBUG	<- 200 OK {"value":null}

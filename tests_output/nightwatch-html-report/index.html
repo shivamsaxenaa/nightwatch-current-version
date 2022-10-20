@@ -1,0 +1,646 @@
+  <head>
+    <title>Nightwatch Reporter</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="wrap">
+      <div id="main">
+        <section id="navigation">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="https://nightwatchjs.org" target="_blank"><div class="logo"></div></a>
+            </nav>
+          </div>
+        </section>
+        <section id="auxbar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer">
+                  <div class="auxbox autobox">
+                  </div>
+                </div>
+              </div>
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer align-h-center">
+                  <h1>Nightwatch.js – <strong>Test Report</strong></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="sessions">
+          <div class="row">
+          <div class="col-md-12">
+          <div class="container-fluid">
+            
+                <div id="s1" class="sessionbox">
+                  
+      <div class="sessionbox-indicator indicator-error sessionbox-padding">
+        <div class="row">
+          <div class="col-md-1">
+            <div class="statusbadge statusbadge-error">Error</div>
+          </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             test
+          </div>
+        </div>
+        <div id="tabs-s1" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s1-t1-tab" data-bs-toggle="tab" href="#nav-s1-t1" role="tab" aria-controls="nav-s1-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s1-t3-tab" data-bs-toggle="tab" href="#nav-s1-t3" role="tab" aria-controls="nav-s1-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s1-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">1</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">9</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">/tests/test.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">69.28 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s1-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session  </span></b></div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">&#39;chrome&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { w3c: <span style="color:#A50">true<span style="color:#FFF">, args: [] },
+       name: <span style="color:#0A0">&#39;Test&#39;<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">&#39;chrome&#39;<span style="color:#FFF">,
+         <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { w3c: <span style="color:#A50">true<span style="color:#FFF">, args: [] }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session (1048ms)</div><div>{
+     value: {
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">&#39;chrome&#39;<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">&#39;106.0.5249.119&#39;<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">&#39;106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569})&#39;<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">&#39;/var/folders/tb/4mlnszhx5zqfw5qvrgsxgk8h0000gp/T/.com.google.Chrome.YnIeFt&#39;<span style="color:#FFF">
+         },
+         <span style="color:#0A0">&#39;goog:chromeOptions&#39;<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">&#39;localhost:62211&#39;<span style="color:#FFF"> },
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">&#39;normal&#39;<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">&#39;mac os x&#39;<span style="color:#FFF">,
+         proxy: {},
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">&#39;dismiss and notify&#39;<span style="color:#FFF">,
+         <span style="color:#0A0">&#39;webauthn:extension:credBlob&#39;<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">&#39;webauthn:extension:largeBlob&#39;<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">&#39;webauthn:virtualAuthenticators&#39;<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       },
+       sessionId: <span style="color:#0A0">&#39;a04a7a02e7b8c57c007d98f144c32a83&#39;<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/url  </span></b></div><div>{ url: <span style="color:#0A0">&#39;https://staging2.instawork.com&#39;<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/url (1964ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; nav &gt; div &gt; ul.navbar-nav.font-weight-semibold.ml-0 &gt; li.nav-item.mx-24 &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;608cc8e0-3674-4f1b-9c91-ecf8c4ec894d&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/execute/sync  </span></b></div><div>{
+     script: <span style="color:#0A0">&#39;return (function(){return (function(){var k=this||self;function aa(a){return&quot;string&quot;==typeof a}function ba(a,b){a=a.split(&quot;.&quot;);var c=k;a[0]in c||&quot;undefined&quot;==typeof c.execScript||c.execScript(&quot;var &quot;+a... (44027 characters)&#39;<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;608cc8e0-3674-4f1b-9c91-ecf8c4ec894d&#39;<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">&#39;608cc8e0-3674-4f1b-9c91-ecf8c4ec894d&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/execute/sync (11ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; nav &gt; div &gt; ul.navbar-nav.font-weight-semibold.ml-0 &gt; li.nav-item.mx-24 &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;608cc8e0-3674-4f1b-9c91-ecf8c4ec894d&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/608cc8e0-3674-4f1b-9c91-ecf8c4ec894d/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/608cc8e0-3674-4f1b-9c91-ecf8c4ec894d/click (481ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#id_email&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;89c14d89-adf1-47e9-a562-520b63fdc50d&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/89c14d89-adf1-47e9-a562-520b63fdc50d/clear  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/89c14d89-adf1-47e9-a562-520b63fdc50d/clear (24ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/89c14d89-adf1-47e9-a562-520b63fdc50d/value  </span></b></div><div>{
+     text: <span style="color:#0A0">&#39;Autobusiness12345@mailinator.com&#39;<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">&#39;A&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;u&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;t&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;o&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;b&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;u&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;s&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;i&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;n&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;e&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;s&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;s&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;1&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;2&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;3&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;4&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;5&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;@&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;m&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;a&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;i&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;l&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;i&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;n&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;a&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;t&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;o&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;r&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;.&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;c&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;o&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;m&#39;<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/89c14d89-adf1-47e9-a562-520b63fdc50d/value (88ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#id_password&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;4db06104-3fba-44d5-8d91-49f775c7380e&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/4db06104-3fba-44d5-8d91-49f775c7380e/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/4db06104-3fba-44d5-8d91-49f775c7380e/click (81ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#id_password&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (5ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;4db06104-3fba-44d5-8d91-49f775c7380e&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/4db06104-3fba-44d5-8d91-49f775c7380e/clear  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/4db06104-3fba-44d5-8d91-49f775c7380e/clear (16ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/4db06104-3fba-44d5-8d91-49f775c7380e/value  </span></b></div><div>{
+     text: <span style="color:#0A0">&#39;123456789&#39;<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">&#39;1&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;2&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;3&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;4&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;5&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;6&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;7&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;8&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;9&#39;<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/4db06104-3fba-44d5-8d91-49f775c7380e/value (22ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.container &gt; div &gt; div &gt; div &gt; div &gt; form &gt; div.d-flex.flex-column.align-items-center.mt-16 &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (9ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;ab3c4fc9-693a-45b1-a11e-1a41a917074c&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/ab3c4fc9-693a-45b1-a11e-1a41a917074c/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/ab3c4fc9-693a-45b1-a11e-1a41a917074c/click (1548ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.container.mt-20 &gt; div &gt; div &gt; div.d-flex.flex-column.flex-md-row.justify-content-between.mb-16 &gt; div &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;0c166109-5fbc-476d-a216-a1fe481ad270&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/0c166109-5fbc-476d-a216-a1fe481ad270/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/0c166109-5fbc-476d-a216-a1fe481ad270/click (1524ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.mb-16.form-group &gt; select&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;d30b5169-795b-466e-81a8-17db53127915&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/d30b5169-795b-466e-81a8-17db53127915/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/d30b5169-795b-466e-81a8-17db53127915/click (55ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.mb-16.form-group &gt; select&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (5ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;d30b5169-795b-466e-81a8-17db53127915&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/d30b5169-795b-466e-81a8-17db53127915/clear  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 400 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/d30b5169-795b-466e-81a8-17db53127915/clear (6ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">&#39;invalid element state&#39;<span style="color:#FFF">,
+       message: <span style="color:#0A0">&#39;invalid element state\n  (Session info: chrome=106.0.5249.119)&#39;<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">&#39;&#39;<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/d30b5169-795b-466e-81a8-17db53127915/value  </span></b></div><div>{
+     text: <span style="color:#0A0">&#39;Automation Cafe and Restaurant&#39;<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">&#39;A&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;u&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;t&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;o&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;m&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;a&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;t&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;i&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;o&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;n&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39; &#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;C&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;a&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;f&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;e&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39; &#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;a&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;n&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;d&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39; &#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;R&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;e&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;s&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;t&#39;<span style="color:#FFF">,
+       <span style="color:#0A0">&#39;a&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;u&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;r&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;a&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;n&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;t&#39;<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/d30b5169-795b-466e-81a8-17db53127915/value (320ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (10ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;a47ec6c0-5ecb-46d2-9523-18dd64b5c4b9&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/a47ec6c0-5ecb-46d2-9523-18dd64b5c4b9/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/a47ec6c0-5ecb-46d2-9523-18dd64b5c4b9/click (280ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div:nth-child(2) &gt; select&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (19ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div:nth-child(2) &gt; select&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;f6ce7944-facb-4170-9ace-16834422fc36&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/execute/sync  </span></b></div><div>{
+     script: <span style="color:#0A0">&#39;return (function(){return (function(){var k=this||self;function aa(a){return&quot;string&quot;==typeof a}function ba(a,b){a=a.split(&quot;.&quot;);var c=k;a[0]in c||&quot;undefined&quot;==typeof c.execScript||c.execScript(&quot;var &quot;+a... (44027 characters)&#39;<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;f6ce7944-facb-4170-9ace-16834422fc36&#39;<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">&#39;f6ce7944-facb-4170-9ace-16834422fc36&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/execute/sync (12ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div:nth-child(2) &gt; select&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (5ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;f6ce7944-facb-4170-9ace-16834422fc36&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/f6ce7944-facb-4170-9ace-16834422fc36/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/f6ce7944-facb-4170-9ace-16834422fc36/click (51ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div:nth-child(2) &gt; select&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (4ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;f6ce7944-facb-4170-9ace-16834422fc36&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/f6ce7944-facb-4170-9ace-16834422fc36/clear  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 400 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/f6ce7944-facb-4170-9ace-16834422fc36/clear (6ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">&#39;invalid element state&#39;<span style="color:#FFF">,
+       message: <span style="color:#0A0">&#39;invalid element state\n  (Session info: chrome=106.0.5249.119)&#39;<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">&#39;&#39;<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/f6ce7944-facb-4170-9ace-16834422fc36/value  </span></b></div><div>{ text: <span style="color:#0A0">&#39;30&#39;<span style="color:#FFF">, value: [ <span style="color:#0A0">&#39;3&#39;<span style="color:#FFF">, <span style="color:#0A0">&#39;0&#39;<span style="color:#FFF"> ] }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/f6ce7944-facb-4170-9ace-16834422fc36/value (26ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (15ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (9ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (13ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (9ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (15ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (13ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (13ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (16ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">&#39;element-6066-11e4-a52e-4f735466cecf&#39;<span style="color:#FFF">: <span style="color:#0A0">&#39;a2525392-5057-4c47-bb95-b3cf4da8268f&#39;<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/a2525392-5057-4c47-bb95-b3cf4da8268f/click  </span></b></div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/element/a2525392-5057-4c47-bb95-b3cf4da8268f/click (109ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (18ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (11ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (9ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (9ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (12ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (9ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (5ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (5ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (9ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (10ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (9ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (16ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (5ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{ using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">, value: <span style="color:#0A0">&#39;#iwAccountButton &gt; svg&#39;<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (24ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (12ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (8ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (6ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (5ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements  </span></b></div><div>{
+     using: <span style="color:#0A0">&#39;css selector&#39;<span style="color:#FFF">,
+     value: <span style="color:#0A0">&#39;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#39;<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/a04a7a02e7b8c57c007d98f144c32a83/elements (7ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request <b><span style="color:#0AA">DELETE /session/a04a7a02e7b8c57c007d98f144c32a83  </span></b></div><div><span style="color:#0A0">&#39;&#39;<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /session/a04a7a02e7b8c57c007d98f144c32a83 (51ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s0ac1" aria-expanded="false" aria-controls="s0ac1">
+          Post a Gig as Existing Business user
+        </button>
+      </h5>
+    </div>
+
+    <div id="s0ac1" class="collapse" aria-labelledby="s0ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Element &lt;body &gt; nav &gt; div &gt; ul.navbar-nav.font-weight-semibold.ml-0 &gt; li.nav-item.mx-24 &gt; a&gt; was visible after 26 milliseconds.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Element &lt;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div:nth-child(2) &gt; select&gt; was visible after 540 milliseconds.</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+          </div>
+          </div>
+         </div>
+        </section>
+      </div>
+    </div>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row footerstarbg">
+          <div class="col-md-12">
+            <nav class="footer-box">
+              <div class="footer-links">
+                  <a class="cr" href="https://nightwatchjs.org" target="_blank">© 2022 Nightwatch.js</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+  </body>

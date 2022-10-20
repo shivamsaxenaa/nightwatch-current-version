@@ -1,0 +1,18 @@
+{
+  "name": "pocnightwatchcurrentversion",
+  "version": "1.0.0",
+  "description": "To check test with latest version of nightwatch",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^106.0.1",
+    "geckodriver": "^3.1.0",
+    "nightwatch": "^2.4.0",
+    "phantomjs-prebuilt": "^2.1.16",
+    "selenium-server": "^3.141.59"
+  }
+}

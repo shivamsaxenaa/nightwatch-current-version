@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="9"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="9" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="69.28" timestamp="">
+  
+    <testcase name="Post a Gig as Existing Business user" classname="test" time="69.28" assertions="2">
+
+    
+
+    
+    <error message="An error occurred while running .click() command on &lt;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&gt;: Timed out while waiting for element &#34;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Post a Gig as Existing Business user (/Users/shivam/nightwatch-current-version/tests/test.js:36:10)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     20 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div:nth-child(2) &gt; select&#34;)
+     21 |         .setValue(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div:nth-child(2) &gt; select&#34;, &#34;30&#34;)
+     22 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#34;) 
+     23 |         .click(&#34;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#34;)
+     24 |         .pause(2000)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     21 |         .setValue(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div:nth-child(2) &gt; select&#34;, &#34;30&#34;)
+     22 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.card.mb-16.p-16.gutter-none.gutter-sm-normal &gt; div.position-shift.mb-24.mb-md-16 &gt; div &gt; div.col-6.col-md-4.order-0.col &gt; div &gt; input&#34;)
+     23 |         .click(&#34;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#34;) 
+     24 |         .pause(2000)
+     25 |         .click(&#34;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     23 |         .click(&#34;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__navigation &gt; button.react-calendar__navigation__arrow.react-calendar__navigation__next-button&#34;)
+     24 |         .pause(2000)
+     25 |         .click(&#34;body &gt; div.fade.datepicker-module__container___BwBZuDAYGYHym_mgLySW.show &gt; div &gt; div &gt; div.react-calendar__viewContainer &gt; div &gt; div &gt; div &gt; div.react-calendar__month-view__days &gt; button:nth-child(14) &gt; abbr&#34;) 
+     26 |         .pause(2000)
+     27 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     27 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#34;)
+     28 |         .pause(2000)
+     29 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#34;) 
+     30 |         .pause(2000)
+     31 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     29 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn.btn-primary&#34;)
+     30 |         .pause(2000)
+     31 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#34;) 
+     32 |         .pause(2000)
+     33 |         .click(&#34;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     31 |         .click(&#34;#booking-flow-spa-container &gt; div &gt; div &gt; div.col-md-7.mr-md-0.md-offset-1.col-sm-12.mx-sm-auto.pt-24.d-flex.justify-content-end &gt; div &gt; form &gt; div.d-flex.flex-row-reverse.justify-content-between.align-items-center.mt-24 &gt; button.btn.btn-lg.btn-primary.btn-indicator.px-32.btn.btn-primary&#34;)
+     32 |         .pause(2000)
+     33 |         .click(&#34;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#34;) 
+     34 |         .click(&#34;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#34;)
+     35 |         .click(&#34;#iwAccountButton &gt; svg&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     32 |         .pause(2000)
+     33 |         .click(&#34;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#34;)
+     34 |         .click(&#34;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#34;) 
+     35 |         .click(&#34;#iwAccountButton &gt; svg&#34;)
+     36 |         .click(&#34;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     33 |         .click(&#34;#gigs-view-navbar &gt; li.iwn-nav-item.active &gt; a&#34;)
+     34 |         .click(&#34;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#34;)
+     35 |         .click(&#34;#iwAccountButton &gt; svg&#34;) 
+     36 |         .click(&#34;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#34;)
+     37 |         .end();
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/shivam/nightwatch-current-version/tests/test.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     34 |         .click(&#34;#gigList &gt; div:nth-child(74) &gt; div &gt; a &gt; div.d-flex.flex-row.justify-content-between.border-bottom&#34;)
+     35 |         .click(&#34;#iwAccountButton &gt; svg&#34;)
+     36 |         .click(&#34;#iwNavToggler &gt; ul:nth-child(2) &gt; li.iwn-nav-item.dropdown.iwn-desktop-account &gt; div &gt; div &gt; a:nth-child(6)&#34;) 
+     37 |         .end();
+     38 |   },
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
